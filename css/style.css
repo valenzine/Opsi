@@ -1,0 +1,386 @@
+ @charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+
+a{
+	color: #ccd500;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: #a9b119;
+}
+.clear {
+    clear: both;
+}
+html {
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+}
+body {
+	height:100%;
+	background:black;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background: black;
+}
+b{
+	font-weight: 600;
+}
+
+
+/* Titulos
+-------------------------------------------------------------------------*/
+h1{
+	width: 100%;
+	color: #000000;
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+h2{
+	color: #000000;
+    display: table-cell;
+    float: left;
+    font-size: 45px;
+    line-height: 40px;
+    margin: 0 0 50px;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
+h2 span{
+	font-weight: 400;
+}
+h3{
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0;
+	color: white;
+	font-size:40px;
+	font-family: 'Lato', 'sans-serif';
+	font-weight: 300;
+}
+h4{
+	color: #ffffff;
+    display: table-cell;
+    float: left;
+    font-size: 35px;
+    line-height: 31px;
+    margin: 0 0 0;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+}
+
+p.title{
+	color: #000000;
+    display: table-cell;
+    float: left;
+    font-size: 45px;
+    line-height: 40px;
+    margin: 0 0 50px;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
+
+.grey {	color:#444;}
+
+/* INICIO
+-------------------------------------------------------------------------*/
+#header{
+	margin: 0 auto 0;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 0px;
+	background-color: #6C5726;
+	overflow: hidden;
+	position: relative;
+    border-top: 10px solid #A48E4E;
+    border-bottom: 10px solid #A48E4E;
+}
+#header table, #footer table{
+	height: 100%;
+	width: 100%;
+}
+#header table td, #footer table td{
+	vertical-align: middle;
+}
+#header .content{
+	color: #FFFFFF;
+    float: left;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 42px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+#header .content, #footer .content{
+	font-family: 'Pathway Gothic One';
+	color: #ffffff;
+    float: left;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 80px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px;
+}
+#header .content > div, #footer .content > div{
+	display: inline-block;
+}
+
+#footer{
+	width:100%;
+	background-color: #6C5726;
+	border-top: 20px dotted #A48E4E;
+	height: 200px;
+}
+
+
+.line{
+	padding: 50px 0px 25px 0px;
+	width:100%;
+}
+
+
+
+.machineContainer{
+
+	/* background-color: #F9F9F9; */
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	height:100%
+}
+.machineContainer > div {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.slotMachine{
+	width: 185px;
+	height: 100px;
+	padding: 0px;
+	overflow: hidden;
+	text-align: center;
+	margin:auto;
+	display:block;
+	
+	}
+.machineResult{
+	color:#fff;
+	text-align:center;
+	font-weight: 900;
+}
+.noBorder{
+	border:none !important;
+	background: transparent !important;
+}
+.slotMachine .slot{
+	/* height:100px; */
+	background-position-x: 55%;
+	background-repeat: no-repeat;
+}
+
+#ojos{border-bottom:0;}
+#narices{border-bottom:0;border-top:0;height: 80px;}
+#bocas{border-top:0;height: 75px;}
+
+#textMachine, #textMachine2{
+	width:520px;
+	height: 67px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: left;
+}
+#textMachine > *, #textMachine2 > *{
+	padding: 0px 0px;
+}
+
+.slotMachineButton{
+	width:100px;
+	height: 100px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+.slotMachineButton {
+	background: #006699;
+	border-radius: 75px;
+	text-indent:0px;
+	display:inline-block;
+	color:#ffffff;
+	font-size:40px;
+	font-weight:bold;
+	font-style:normal;
+	height: 150px;
+	line-height: 150px;
+	margin-top:10px;
+	width: 150px;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;
+}
+.slotMachineButton:hover {
+	background-color: #fb9e25;
+}.slotMachineButton:active {
+	background: rgba(251, 158, 37, 0.76);
+}
+
+/* */
+
+#face {width:100%;/* max-width:640px */}
+
+.ojos{ background:url("../img/ojos.png") top left no-repeat; width:175px; height:100px;  }.ojos{ background:url("../img/ojos.png") top left no-repeat; width:175px; height:100px;  }
+.ojos.slot1 {background-position:-10px -10px; }
+.ojos.slot2 {background-position:-10px -120px; }
+.ojos.slot3 {background-position:-10px -230px; }
+.ojos.slot4 {background-position:-10px -340px; }
+.ojos.slot5 {background-position:-10px -450px; }
+.ojos.slot6 {background-position:-10px -560px; }
+.ojos.slot7 {background-position:-10px -670px; }
+.ojos.slot8 {background-position:-10px -780px; }
+.ojos.slot9 {background-position:-10px -890px; }
+.ojos.slot10{background-position:-10px -1000px; }
+.ojos.slot11{background-position:-10px -1110px; }
+.ojos.slot12{background-position:-10px -1220px; }
+.ojos.slot13{background-position:-10px -1330px; }
+.ojos.slot14{background-position:-10px -1440px; }
+.ojos.slot15{background-position:-10px -1550px; }
+.ojos.slot16{background-position:-10px -1660px; }
+.ojos.slot17{background-position:-10px -1770px; }
+.ojos.slot18{background-position:-10px -1880px; }
+.ojos.slot19{background-position:-10px -1990px; }
+.ojos.slot20{background-position:-10px -2100px; }
+.ojos.slot21{background-position:-10px -2210px; }
+.ojos.slot22{background-position:-10px -2320px; }
+.ojos.slot23{background-position:-10px -2430px; }
+.ojos.slot24{background-position:-10px -2540px; }
+.ojos.slot25{background-position:-10px -2650px; }
+.ojos.slot26{background-position:-10px -2760px; }
+.ojos.slot27{background-position:-10px -2870px; }
+.ojos.slot28{background-position:-10px -2980px; }
+.ojos.slot29{background-position:-10px -3090px; }
+.ojos.slot30{background-position:-10px -3200px; }
+.ojos.slot31{background-position:-10px -3310px; }
+.ojos.slot32{background-position:-10px -3420px; }
+.ojos.slot33{background-position:-10px -3530px; }
+.ojos.slot34{background-position:-10px -3640px; }
+.ojos.slot35{background-position:-10px -3750px; }
+.ojos.slot36{background-position:-10px -3860px; }
+.ojos.slot37{background-position:-10px -3970px; }
+.ojos.slot38{background-position:-10px -4080px; }
+.ojos.slot39{background-position:-10px -4190px; }
+.ojos.slot40{background-position:-10px -4300px; }
+.ojos.slot41{background-position:-10px -4410px; }
+.ojos.slot42{background-position:-10px -4520px; }
+.ojos.slot43{background-position:-10px -4630px; }
+.ojos.slot44{background-position:-10px -4740px; }
+.ojos.slot45{background-position:-10px -4850px; }
+.ojos.slot46{background-position:-10px -4960px; }
+.ojos.slot47{background-position:-10px -5070px; }
+.ojos.slot48{background-position:-10px -5180px; }
+.ojos.slot49{background-position:-10px -5290px; }
+.ojos.slot50{background-position:-10px -5400px; }
+.ojos.slot51{background-position:-10px -5510px; }
+.ojos.slot52{background-position:-10px -5620px; }
+.ojos.slot53{background-position:-10px -5730px; }
+.ojos.slot54{background-position:-10px -5840px; }
+.ojos.slot55{background-position:-10px -5950px; }
+
+.ojos.c743d60{ background-image:url("../img/ojos_743d60.png");}
+.ojos.c426a73{ background-image:url("../img/ojos_426a73.png");}
+.ojos.c7c734f{ background-image:url("../img/ojos_7c734f.png");}
+.ojos.c2d3b72{ background-image:url("../img/ojos_2d3b72.png");}
+.ojos.c378061{ background-image:url("../img/ojos_378061.png");}
+.ojos.c512e88{ background-image:url("../img/ojos_512e88.png");}
+.ojos.cc826b0{ background-image:url("../img/ojos_c826b0.png");}
+.ojos.cdee9bd{ background-image:url("../img/ojos_dee9bd.png");}
+.ojos.cf6ca44{ background-image:url("../img/ojos_f6ca44.png");}
+
+.narices{ background:url("../img/narices.png") top left no-repeat; }
+.narices.slot1 { width:175px; height:80px; background-position:-10px -10px; }
+.narices.slot2 { width:175px; height:80px; background-position:-10px -100px; }
+.narices.slot3 { width:175px; height:80px; background-position:-10px -190px; }
+.narices.slot4 { width:175px; height:80px; background-position:-10px -280px; }
+.narices.slot5 { width:175px; height:80px; background-position:-10px -370px; }
+.narices.slot6 { width:175px; height:80px; background-position:-10px -460px; }
+.narices.slot7 { width:175px; height:80px; background-position:-10px -550px; }
+.narices.slot8 { width:175px; height:80px; background-position:-10px -640px; }
+.narices.slot9 { width:175px; height:80px; background-position:-10px -730px; }
+.narices.slot10{ width:175px; height:80px; background-position:-10px -820px; }
+.narices.slot11{ width:175px; height:80px; background-position:-10px -910px; }
+
+.narices.c743d60{ background-image:url("../img/narices_743d60.png"); }
+.narices.c426a73{ background-image:url("../img/narices_426a73.png"); }
+.narices.c7c734f{ background-image:url("../img/narices_7c734f.png"); }
+.narices.c2d3b72{ background-image:url("../img/narices_2d3b72.png"); }
+.narices.c378061{ background-image:url("../img/narices_378061.png"); }
+.narices.c512e88{ background-image:url("../img/narices_512e88.png"); }
+.narices.cc826b0{ background-image:url("../img/narices_c826b0.png"); }
+.narices.cdee9bd{ background-image:url("../img/narices_dee9bd.png"); }
+.narices.cf6ca44{ background-image:url("../img/narices_f6ca44.png"); }
+
+.bocas{ background:url("../img/bocas.png") top left no-repeat;  width:175px; height:75px; }
+.bocas.slot1 {background-position:-10px -10px; }
+.bocas.slot2 {background-position:-10px -95px; }
+.bocas.slot3 {background-position:-10px -180px; }
+.bocas.slot4 {background-position:-10px -265px; }
+.bocas.slot5 {background-position:-10px -350px; }
+.bocas.slot6 {background-position:-10px -435px; }
+.bocas.slot7 {background-position:-10px -520px; }
+.bocas.slot8 {background-position:-10px -605px; }
+.bocas.slot9 {background-position:-10px -690px; }
+.bocas.slot10{background-position:-10px -775px; }
+.bocas.slot11{background-position:-10px -860px; }
+.bocas.slot12{background-position:-10px -945px; }
+.bocas.slot13{background-position:-10px -1030px; }
+.bocas.slot14{background-position:-10px -1115px; }
+.bocas.slot15{background-position:-10px -1200px; }
+.bocas.slot16{background-position:-10px -1285px; }
+.bocas.slot17{background-position:-10px -1370px; }
+.bocas.slot18{background-position:-10px -1455px; }
+.bocas.slot19{background-position:-10px -1540px; }
+.bocas.slot20{background-position:-10px -1625px; }
+.bocas.slot21{background-position:-10px -1710px; }
+.bocas.slot22{background-position:-10px -1795px; }
+.bocas.slot23{background-position:-10px -1880px; }
+.bocas.slot24{background-position:-10px -1965px; }
+.bocas.slot25{background-position:-10px -2050px; }
+.bocas.slot26{background-position:-10px -2135px; }
+.bocas.slot27{background-position:-10px -2220px; }
+.bocas.slot28{background-position:-10px -2305px; }
+.bocas.slot29{background-position:-10px -2390px; }
+.bocas.slot30{background-position:-10px -2475px; }
+.bocas.slot31{background-position:-10px -2560px; }
+.bocas.slot32{background-position:-10px -2645px; }
+.bocas.slot33{background-position:-10px -2730px; }
+.bocas.slot34{background-position:-10px -2815px; }
+.bocas.slot35{background-position:-10px -2900px; }
+.bocas.slot36{background-position:-10px -2985px; }
+
+.bocas.c743d60{ background-image:url("../img/bocas_743d60.png"); }
+.bocas.c426a73{ background-image:url("../img/bocas_426a73.png"); }
+.bocas.c7c734f{ background-image:url("../img/bocas_7c734f.png"); }
+.bocas.c2d3b72{ background-image:url("../img/bocas_2d3b72.png"); }
+.bocas.c378061{ background-image:url("../img/bocas_378061.png"); }
+.bocas.c512e88{ background-image:url("../img/bocas_512e88.png"); }
+.bocas.cc826b0{ background-image:url("../img/bocas_c826b0.png"); }
+.bocas.cdee9bd{ background-image:url("../img/bocas_dee9bd.png"); }
+.bocas.cf6ca44{ background-image:url("../img/bocas_f6ca44.png"); }
+
+
