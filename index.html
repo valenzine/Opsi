@@ -224,7 +224,6 @@
 				});	
 				
 				$("#screenshot").click(function(){
-					
 					navigator.screenshot.save(function(error,res){
 						if(error){
 							console.error(error);
@@ -232,7 +231,6 @@
 							console.log('ok',res.filePath);
 						}
 					});
-					alert('Screenshot!');
 				});
 				
 
