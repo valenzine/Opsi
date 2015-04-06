@@ -125,7 +125,8 @@
 					<div class="slot bocas slot36"></div>
 				</div>
 			</div>
-		</div>				
+		</div>			
+		<div id="screenshot"></div>
 
 		<script>
 			$(document).ready(function(){
@@ -220,7 +221,19 @@
 				
 				$("#face").click(function(){
 					opsi();
+				});	
+				
+				$("#screenshot").click(function(){
+					navigator.screenshot.save(function(error,res){
+						if(error){
+							console.error(error);
+						}else{
+							console.log('ok',res.filePath);
+						}
+					});
 				});
+				
+
 				
 				
 				function opsi() {
