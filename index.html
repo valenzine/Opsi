@@ -238,10 +238,10 @@
 				
 				$("#camera").click(function(){
 					navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
-						destinationType: Camera.DestinationType.FILE_URI });
+						destinationType: Camera.DestinationType.DATA_URL });
 
 					function onSuccess(imageURI) {
-						var image = document.getElementById('myImage');
+						//var image = document.getElementById('myImage');
 						//image.src = imageURI;
 						$('body').css('background-image', 'url(' + "data:image/jpeg;base64," + imageData + ')');
 					}
