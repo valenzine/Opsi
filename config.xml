@@ -72,6 +72,8 @@
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
 	<gap:plugin name="com.darktalker.cordova.screenshot" version="0.1.0" />
+	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+
 
 
     <!-- Define app icon for each platform. -->
