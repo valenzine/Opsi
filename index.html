@@ -237,13 +237,24 @@
 				});
 				
 				$("#camera").click(function(){
-					navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
-						destinationType: Camera.DestinationType.DATA_URL });
+					navigator.camera.getPicture(onSuccess, onFail, { quality : 50,
+						destinationType : Camera.DestinationType.DATA_URL,
+						//sourceType : Camera.PictureSourceType.CAMERA,
+					//	allowEdit : true,
+						//encodingType: Camera.EncodingType.JPEG,
+						// targetWidth: 720,
+						// targetHeight: 1280,
+						//popoverOptions: CameraPopoverOptions,
+						//saveToPhotoAlbum: false 
+						};
 
 					function onSuccess(imageData) {
 						//var image = document.getElementById('myImage');
 						//image.src = imageURI;
-						$('body').css('background-image', 'url(' + "data:image/jpeg;base64," + imageData + ')');
+						$('body').css({
+							'background-image': 'url(' + "data:image/jpeg;base64," + imageData + ')',
+							'background-size' : 'cover'
+							});
 					}
 
 					function onFail(message) {
