@@ -383,5 +383,5 @@ p.title{
 .bocas.cdee9bd{ background-image:url("../img/bocas_dee9bd.png"); }
 .bocas.cf6ca44{ background-image:url("../img/bocas_f6ca44.png"); }
 
-#screenshot {position: fixed;bottom:0;width:100%;height:10%;cursor:pointer;}
-#camera {position: fixed;top:0;width:100%;height:10%;cursor:pointer;}
+#screenshot {position: fixed;bottom:0;width:100%;height:10%;cursor:pointer;background-color:rgba(255,255,255,0.2);}
+#camera {position: fixed;top:0;width:100%;height:10%;cursor:pointer;background-color:rgba(255,255,255,0.2);}
