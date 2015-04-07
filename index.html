@@ -242,8 +242,8 @@
 						//sourceType : Camera.PictureSourceType.CAMERA,
 					//	allowEdit : true,
 						//encodingType: Camera.EncodingType.JPEG,
-						// targetWidth: 720,
-						// targetHeight: 1280,
+						targetWidth: 720,
+						targetHeight: 1280,
 						//popoverOptions: CameraPopoverOptions,
 						//saveToPhotoAlbum: false 
 						});
@@ -254,7 +254,7 @@
 						//image.src = imageURI;
 						$('body').css({
 							'background-image': 'url(' + "data:image/jpeg;base64," + imageData + ')',
-							'background-size' : 'contain'
+							'background-size' : 'cover'
 							});
 					}
 
