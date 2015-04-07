@@ -242,8 +242,8 @@
 
 					function onSuccess(imageURI) {
 						var image = document.getElementById('myImage');
-						image.src = imageURI;
-						$('body').css('background-image', 'url(' + image.src + ')');
+						//image.src = imageURI;
+						$('body').css('background-image', 'url(' + "data:image/jpeg;base64," + imageData + ')');
 					}
 
 					function onFail(message) {
