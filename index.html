@@ -240,7 +240,7 @@
 					navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
 						destinationType: Camera.DestinationType.DATA_URL });
 
-					function onSuccess(imageURI) {
+					function onSuccess(imageData) {
 						//var image = document.getElementById('myImage');
 						//image.src = imageURI;
 						$('body').css('background-image', 'url(' + "data:image/jpeg;base64," + imageData + ')');
