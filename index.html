@@ -168,27 +168,34 @@
 					delay	: 0
 				});
 				
-				var colors = ["743d60","426a73","7c734f","2d3b72","378061","512e88","c826b0","dee9bd","f6ca44"],
-					color = colors[Math.floor(colors.length * Math.random())];
+				var color_pairs = [
+					["#000", "743d60"],
+					["#FFF", "426a73"],
+					["#FFF", "7c734f"],
+					["#000", "2d3b72"]],
+					pairs = [0,1,2,3],
+					pair = pairs[Math.floor(pairs.length * Math.random())],
+					color = color_pairs[pair];
 					
 				function switchColors(){
-					color = colors[Math.floor(colors.length * Math.random())];
+					pair = pairs[Math.floor(pairs.length * Math.random())],
+					color = color_pairs[pair];
 				}
 				
 				function onComplete(active){
-				
+					$("body").css({backgroundColor: color[0]});
 					switch(this.element[0].id){
 						case 'eyes':
 							var activo1 = this.active + 1;
-							$(".eyes.slot"+activo1).removeClass().addClass('eyes slot'+activo1+' c'+color);
+							$(".eyes.slot"+activo1).removeClass().addClass('eyes slot'+activo1+' c'+color[1]);
 							break;
 						case 'noses':
 							var activo2 = this.active + 1;
-							$(".noses.slot"+activo2).removeClass().addClass('noses slot'+activo2+' c'+color);
+							$(".noses.slot"+activo2).removeClass().addClass('noses slot'+activo2+' c'+color[1]);
 							break;
 						case 'mouths':
 							var activo3 = this.active + 1;
-							$(".mouths.slot"+activo3).removeClass().addClass('mouths slot'+activo3+' c'+color);
+							$(".mouths.slot"+activo3).removeClass().addClass('mouths slot'+activo3+' c'+color[1]);
 							break;
 					}
 				}
