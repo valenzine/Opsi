@@ -331,52 +331,52 @@ p.title{
 .eyes.cffc3b1{ background-image:url("../img/eyes_ffc3b1.png");}
 .eyes.cf0c2f3{ background-image:url("../img/eyes_f0c2f3.png");}
 
-.noses{ background:url("../img/noses_fbf658.png") top left no-repeat; width:175px; height:100px;   }
+.noses{ background:url("../img/noses_fbf658.png") top left no-repeat; width:175px; height:80px;   }
 .noses.slot1 {background-position:-10px -10px; }
-.noses.slot2 {background-position:-10px -120px; }
-.noses.slot3 {background-position:-10px -230px; }
-.noses.slot4 {background-position:-10px -340px; }
-.noses.slot5 {background-position:-10px -450px; }
-.noses.slot6 {background-position:-10px -560px; }
-.noses.slot7 {background-position:-10px -670px; }
-.noses.slot8 {background-position:-10px -780px; }
-.noses.slot9 {background-position:-10px -890px; }
-.noses.slot10{background-position:-10px -1000px; }
-.noses.slot11{background-position:-10px -1110px; }
-.noses.slot12{background-position:-10px -1220px; }
-.noses.slot13{background-position:-10px -1330px; }
-.noses.slot14{background-position:-10px -1440px; }
-.noses.slot15{background-position:-10px -1550px; }
-.noses.slot16{background-position:-10px -1660px; }
-.noses.slot17{background-position:-10px -1770px; }
-.noses.slot18{background-position:-10px -1880px; }
-.noses.slot19{background-position:-10px -1990px; }
-.noses.slot20{background-position:-10px -2100px; }
-.noses.slot21{background-position:-10px -2210px; }
-.noses.slot22{background-position:-10px -2320px; }
-.noses.slot23{background-position:-10px -2430px; }
-.noses.slot24{background-position:-10px -2540px; }
-.noses.slot25{background-position:-10px -2650px; }
-.noses.slot26{background-position:-10px -2760px; }
-.noses.slot27{background-position:-10px -2870px; }
-.noses.slot28{background-position:-10px -2980px; }
-.noses.slot29{background-position:-10px -3090px; }
-.noses.slot30{background-position:-10px -3200px; }
-.noses.slot31{background-position:-10px -3310px; }
-.noses.slot32{background-position:-10px -3420px; }
-.noses.slot33{background-position:-10px -3530px; }
-.noses.slot34{background-position:-10px -3640px; }
-.noses.slot35{background-position:-10px -3750px; }
-.noses.slot36{background-position:-10px -3860px; }
-.noses.slot37{background-position:-10px -3970px; }
-.noses.slot38{background-position:-10px -4080px; }
-.noses.slot39{background-position:-10px -4190px; }
-.noses.slot40{background-position:-10px -4300px; }
-.noses.slot41{background-position:-10px -4410px; }
-.noses.slot42{background-position:-10px -4520px; }
-.noses.slot43{background-position:-10px -4630px; }
-.noses.slot44{background-position:-10px -4740px; }
-.noses.slot45{background-position:-10px -4850px; }
+.noses.slot2 {background-position:-10px -100px; }
+.noses.slot3 {background-position:-10px -190px; }
+.noses.slot4 {background-position:-10px -280px; }
+.noses.slot5 {background-position:-10px -370px; }
+.noses.slot6 {background-position:-10px -460px; }
+.noses.slot7 {background-position:-10px -550px; }
+.noses.slot8 {background-position:-10px -640px; }
+.noses.slot9 {background-position:-10px -730px; }
+.noses.slot10{background-position:-10px -820px; }
+.noses.slot11{background-position:-10px -910px; }
+.noses.slot12{background-position:-10px -1000px; }
+.noses.slot13{background-position:-10px -1090px; }
+.noses.slot14{background-position:-10px -1180px; }
+.noses.slot15{background-position:-10px -1270px; }
+.noses.slot16{background-position:-10px -1360px; }
+.noses.slot17{background-position:-10px -1450px; }
+.noses.slot18{background-position:-10px -1540px; }
+.noses.slot19{background-position:-10px -1630px; }
+.noses.slot20{background-position:-10px -1720px; }
+.noses.slot21{background-position:-10px -1810px; }
+.noses.slot22{background-position:-10px -1900px; }
+.noses.slot23{background-position:-10px -1990px; }
+.noses.slot24{background-position:-10px -2080px; }
+.noses.slot25{background-position:-10px -2170px; }
+.noses.slot26{background-position:-10px -2260px; }
+.noses.slot27{background-position:-10px -2350px; }
+.noses.slot28{background-position:-10px -2440px; }
+.noses.slot29{background-position:-10px -2530px; }
+.noses.slot30{background-position:-10px -2620px; }
+.noses.slot31{background-position:-10px -2710px; }
+.noses.slot32{background-position:-10px -2800px; }
+.noses.slot33{background-position:-10px -2890px; }
+.noses.slot34{background-position:-10px -2980px; }
+.noses.slot35{background-position:-10px -3070px; }
+.noses.slot36{background-position:-10px -3160px; }
+.noses.slot37{background-position:-10px -3250px; }
+.noses.slot38{background-position:-10px -3340px; }
+.noses.slot39{background-position:-10px -3430px; }
+.noses.slot40{background-position:-10px -3520px; }
+.noses.slot41{background-position:-10px -3610px; }
+.noses.slot42{background-position:-10px -3700px; }
+.noses.slot43{background-position:-10px -3790px; }
+.noses.slot44{background-position:-10px -3880px; }
+.noses.slot45{background-position:-10px -3970px; }
 
 .noses.cfbf658{ background-image:url("../img/noses_fbf658.png");}
 .noses.cde1e7f{ background-image:url("../img/noses_de1e7f.png");}
@@ -406,62 +406,62 @@ p.title{
 .noses.cffc3b1{ background-image:url("../img/noses_ffc3b1.png");}
 .noses.cf0c2f3{ background-image:url("../img/noses_f0c2f3.png");}
 
-.mouths{ background:url("../img/mouths_fbf658.png") top left no-repeat;  width:175px; height:100px; }
+.mouths{ background:url("../img/mouths_fbf658.png") top left no-repeat;  width:175px; height:75px; }
 .mouths.slot1 {background-position:-10px -10px; }
-.mouths.slot2 {background-position:-10px -120px; }
-.mouths.slot3 {background-position:-10px -230px; }
-.mouths.slot4 {background-position:-10px -340px; }
-.mouths.slot5 {background-position:-10px -450px; }
-.mouths.slot6 {background-position:-10px -560px; }
-.mouths.slot7 {background-position:-10px -670px; }
-.mouths.slot8 {background-position:-10px -780px; }
-.mouths.slot9 {background-position:-10px -890px; }
-.mouths.slot10{background-position:-10px -1000px; }
-.mouths.slot11{background-position:-10px -1110px; }
-.mouths.slot12{background-position:-10px -1220px; }
-.mouths.slot13{background-position:-10px -1330px; }
-.mouths.slot14{background-position:-10px -1440px; }
-.mouths.slot15{background-position:-10px -1550px; }
-.mouths.slot16{background-position:-10px -1660px; }
-.mouths.slot17{background-position:-10px -1770px; }
-.mouths.slot18{background-position:-10px -1880px; }
-.mouths.slot19{background-position:-10px -1990px; }
-.mouths.slot20{background-position:-10px -2100px; }
-.mouths.slot21{background-position:-10px -2210px; }
-.mouths.slot22{background-position:-10px -2320px; }
-.mouths.slot23{background-position:-10px -2430px; }
-.mouths.slot24{background-position:-10px -2540px; }
-.mouths.slot25{background-position:-10px -2650px; }
-.mouths.slot26{background-position:-10px -2760px; }
-.mouths.slot27{background-position:-10px -2870px; }
-.mouths.slot28{background-position:-10px -2980px; }
-.mouths.slot29{background-position:-10px -3090px; }
-.mouths.slot30{background-position:-10px -3200px; }
-.mouths.slot31{background-position:-10px -3310px; }
-.mouths.slot32{background-position:-10px -3420px; }
-.mouths.slot33{background-position:-10px -3530px; }
-.mouths.slot34{background-position:-10px -3640px; }
-.mouths.slot35{background-position:-10px -3750px; }
-.mouths.slot36{background-position:-10px -3860px; }
-.mouths.slot37{background-position:-10px -3970px; }
-.mouths.slot38{background-position:-10px -4080px; }
-.mouths.slot39{background-position:-10px -4190px; }
-.mouths.slot40{background-position:-10px -4300px; }
-.mouths.slot41{background-position:-10px -4410px; }
-.mouths.slot42{background-position:-10px -4520px; }
-.mouths.slot43{background-position:-10px -4630px; }
-.mouths.slot44{background-position:-10px -4740px; }
-.mouths.slot45{background-position:-10px -4850px; }
-.mouths.slot46{background-position:-10px -4960px; }
-.mouths.slot47{background-position:-10px -5070px; }
-.mouths.slot48{background-position:-10px -5180px; }
-.mouths.slot49{background-position:-10px -5290px; }
-.mouths.slot50{background-position:-10px -5400px; }
-.mouths.slot51{background-position:-10px -5510px; }
-.mouths.slot52{background-position:-10px -5620px; }
-.mouths.slot53{background-position:-10px -5730px; }
-.mouths.slot54{background-position:-10px -5840px; }
-.mouths.slot55{background-position:-10px -5950px; }
+.mouths.slot2 {background-position:-10px -95px; }
+.mouths.slot3 {background-position:-10px -180px; }
+.mouths.slot4 {background-position:-10px -265px; }
+.mouths.slot5 {background-position:-10px -350px; }
+.mouths.slot6 {background-position:-10px -435px; }
+.mouths.slot7 {background-position:-10px -520px; }
+.mouths.slot8 {background-position:-10px -605px; }
+.mouths.slot9 {background-position:-10px -690px; }
+.mouths.slot10{background-position:-10px -775px; }
+.mouths.slot11{background-position:-10px -860px; }
+.mouths.slot12{background-position:-10px -945px; }
+.mouths.slot13{background-position:-10px -1030px; }
+.mouths.slot14{background-position:-10px -1115px; }
+.mouths.slot15{background-position:-10px -1200px; }
+.mouths.slot16{background-position:-10px -1285px; }
+.mouths.slot17{background-position:-10px -1370px; }
+.mouths.slot18{background-position:-10px -1455px; }
+.mouths.slot19{background-position:-10px -1540px; }
+.mouths.slot20{background-position:-10px -1625px; }
+.mouths.slot21{background-position:-10px -1710px; }
+.mouths.slot22{background-position:-10px -1795px; }
+.mouths.slot23{background-position:-10px -1880px; }
+.mouths.slot24{background-position:-10px -1965px; }
+.mouths.slot25{background-position:-10px -2050px; }
+.mouths.slot26{background-position:-10px -2135px; }
+.mouths.slot27{background-position:-10px -2220px; }
+.mouths.slot28{background-position:-10px -2305px; }
+.mouths.slot29{background-position:-10px -2390px; }
+.mouths.slot30{background-position:-10px -2475px; }
+.mouths.slot31{background-position:-10px -2560px; }
+.mouths.slot32{background-position:-10px -2645px; }
+.mouths.slot33{background-position:-10px -2730px; }
+.mouths.slot34{background-position:-10px -2815px; }
+.mouths.slot35{background-position:-10px -2900px; }
+.mouths.slot36{background-position:-10px -2985px; }
+.mouths.slot37{background-position:-10px -3070px; }
+.mouths.slot38{background-position:-10px -3155px; }
+.mouths.slot39{background-position:-10px -3240px; }
+.mouths.slot40{background-position:-10px -3325px; }
+.mouths.slot41{background-position:-10px -3410px; }
+.mouths.slot42{background-position:-10px -3495px; }
+.mouths.slot43{background-position:-10px -3580px; }
+.mouths.slot44{background-position:-10px -3665px; }
+.mouths.slot45{background-position:-10px -3750px; }
+.mouths.slot46{background-position:-10px -3835px; }
+.mouths.slot47{background-position:-10px -3920px; }
+.mouths.slot48{background-position:-10px -4005px; }
+.mouths.slot49{background-position:-10px -4090px; }
+.mouths.slot50{background-position:-10px -4175px; }
+.mouths.slot51{background-position:-10px -4260px; }
+.mouths.slot52{background-position:-10px -4345px; }
+.mouths.slot53{background-position:-10px -4430px; }
+.mouths.slot54{background-position:-10px -4515px; }
+.mouths.slot55{background-position:-10px -4600px; }
 
 .mouths.cfbf658{ background-image:url("../img/mouths_fbf658.png");}
 .mouths.cde1e7f{ background-image:url("../img/mouths_de1e7f.png");}
