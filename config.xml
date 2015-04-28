@@ -3,10 +3,10 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.valenzine.opsi"
+        id        = "com.valenzine.samo"
         version   = "0.0.1">
 
-    <name>Opsi</name>
+    <name>SAMO-O</name>
 
     <description>
         A face generator for some casual fun on your phone.
