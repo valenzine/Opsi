@@ -13,15 +13,15 @@
 		<div class="machineContainer" id="face">
 			<div>
 				<div id="eyes" class="slotMachine">
-					<div class="slot eyes slot1"></div>
+					<div id="eyes-view" class="slot eyes slot1"></div>
 				</div>
 
 				<div id="noses" class="slotMachine">
-					<div class="slot noses slot1"></div>
+					<div  id="noses-view"  class="slot noses slot1"></div>
 				</div>
 
 				<div id="mouths" class="slotMachine">
-					<div class="slot mouths slot1"></div>
+					<div id="mouths-view"  class="slot mouths slot1"></div>
 				</div>
 			</div>
 		</div>			
@@ -134,9 +134,9 @@
 				function opsi() {
 					randomize();
 					$("body").css({backgroundColor: color[0]});
-					$("#eyes > div").removeClass().addClass('eyes slot'+eyes+' c'+color[1]);
-					$("#noses > div").removeClass().addClass('noses slot'+nose+' c'+color[1]);
-					$("#mouths > div").removeClass().addClass('mouths slot'+mouth+' c'+color[1]);
+					$("#eyes-view").removeClass().addClass('eyes slot'+eyes+' c'+color[1]);
+					$("#noses-view").removeClass().addClass('noses slot'+nose+' c'+color[1]);
+					$("#mouths-view").removeClass().addClass('mouths slot'+mouth+' c'+color[1]);
 				};
 				
 				$("#face").click(function(){
