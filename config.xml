@@ -6,7 +6,7 @@
         id        = "com.valenzine.samo"
         version   = "0.0.1">
 
-    <name>SAMO-O</name>
+    <name>SAM-O</name>
 
     <description>
         A face generator for some casual fun on your phone.
