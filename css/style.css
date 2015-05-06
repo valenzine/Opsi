@@ -12,6 +12,7 @@ body {
 	height:100%;
 	background-color:black;
 	background-position: center center;
+	margin: 0;
 }
 
 .container{
@@ -28,7 +29,7 @@ body {
   transform: translateY(-50%);
 }
 .container > div > div{
-	width: 185px;
+	width: 175px;
 	height: 100px;
 	padding: 0px;
 	overflow: hidden;

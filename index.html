@@ -12,17 +12,9 @@
 	<body>
 		<div class="container" id="face">
 			<div>
-				<div id="eyes">
-					<div id="eyes-view" class="slot eyes slot1"></div>
-				</div>
-
-				<div id="noses">
-					<div  id="noses-view"  class="slot noses slot1"></div>
-				</div>
-
-				<div id="mouths">
-					<div id="mouths-view"  class="slot mouths slot1"></div>
-				</div>
+				<div id="eyes" class="slot eyes slot1"></div>
+				<div id="noses"  class="slot noses slot1"></div>
+				<div id="mouths"  class="slot mouths slot1"></div>
 			</div>
 		</div>			
 		<div id="screenshot"></div>
@@ -134,9 +126,9 @@
 				function opsi() {
 					randomize();
 					$("body").css({backgroundColor: color[0]});			
-					$("#eyes-view").removeClass().addClass('animated bounceIn eyes slot'+eyes+' c'+color[1]).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
-					$("#noses-view").removeClass().addClass('animated bounceIn noses slot'+nose+' c'+color[1]).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
-					$("#mouths-view").removeClass().addClass('animated bounceIn mouths slot'+mouth+' c'+color[1]).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
+					$("#eyes").removeClass().addClass('animated bounceIn eyes slot'+eyes+' c'+color[1]).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
+					$("#noses").removeClass().addClass('animated bounceIn noses slot'+nose+' c'+color[1]).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
+					$("#mouths").removeClass().addClass('animated bounceIn mouths slot'+mouth+' c'+color[1]).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
 				};
 				
 				$("#face").click(function(){
