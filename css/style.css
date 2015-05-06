@@ -1,14 +1,6 @@
  @charset "utf-8";
 /* CSS Document */
 
-a{
-	color: #ccd500;
-	text-decoration: none;
-}
-a:hover{
-	text-decoration: underline;
-	color: #a9b119;
-}
 .clear {
     clear: both;
 }
@@ -22,137 +14,6 @@ body {
 	background-color:black;
 	background-position: center center;
 }
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 80px;
-    width: 100%;
-    background: black;
-}
-b{
-	font-weight: 600;
-}
-
-
-/* Titulos
--------------------------------------------------------------------------*/
-h1{
-	width: 100%;
-	color: #000000;
-	font-size: 40px;
-	margin-bottom: 25px;
-}
-h2{
-	color: #000000;
-    display: table-cell;
-    float: left;
-    font-size: 45px;
-    line-height: 40px;
-    margin: 0 0 50px;
-    text-align: center;
-    width: 100%;
-    font-weight: 300;
-}
-h2 span{
-	font-weight: 400;
-}
-h3{
-	float: left;
-	width: 100%;
-	margin: 0 0 20px 0;
-	color: white;
-	font-size:40px;
-	font-family: 'Lato', 'sans-serif';
-	font-weight: 300;
-}
-h4{
-	color: #ffffff;
-    display: table-cell;
-    float: left;
-    font-size: 35px;
-    line-height: 31px;
-    margin: 0 0 0;
-    text-align: center;
-    width: 100%;
-    font-weight: 400;
-}
-
-p.title{
-	color: #000000;
-    display: table-cell;
-    float: left;
-    font-size: 45px;
-    line-height: 40px;
-    margin: 0 0 50px;
-    text-align: center;
-    width: 100%;
-    font-weight: 300;
-}
-
-.grey {	color:#444;}
-
-/* INICIO
--------------------------------------------------------------------------*/
-#header{
-	margin: 0 auto 0;
-	width: 100%;
-	position: absolute;
-	text-align: center;
-	top: 0px;
-	background-color: #6C5726;
-	overflow: hidden;
-	position: relative;
-    border-top: 10px solid #A48E4E;
-    border-bottom: 10px solid #A48E4E;
-}
-#header table, #footer table{
-	height: 100%;
-	width: 100%;
-}
-#header table td, #footer table td{
-	vertical-align: middle;
-}
-#header .content{
-	color: #FFFFFF;
-    float: left;
-    font-size: 50px;
-    font-weight: 300;
-    line-height: 42px;
-    margin-top: 30px;
-    text-align: center;
-    width: 100%;
-}
-#header .content, #footer .content{
-	font-family: 'Pathway Gothic One';
-	color: #ffffff;
-    float: left;
-    font-size: 70px;
-    font-weight: 300;
-    line-height: 80px;
-    margin-top: 2px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 100%;
-    padding: 30px 0px;
-}
-#header .content > div, #footer .content > div{
-	display: inline-block;
-}
-
-#footer{
-	width:100%;
-	background-color: #6C5726;
-	border-top: 20px dotted #A48E4E;
-	height: 200px;
-}
-
-
-.line{
-	padding: 50px 0px 25px 0px;
-	width:100%;
-}
-
 
 
 .machineContainer{
@@ -494,3 +355,128 @@ p.title{
 
 .c000 {background:#000;}
 .cFFF {background:#FFF;}
+
+
+@charset "UTF-8";
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Daniel Eden
+*/
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.bounceIn,
+.animated.bounceOut {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+
+
+@-webkit-keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+    transform: scale3d(.97, .97, .97);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+    transform: scale3d(.97, .97, .97);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+#eyes-view,
+#noses-view,
+#mouths-view {
+  -webkit-animation-duration: 0.3s; 
+}
