@@ -54,257 +54,12 @@ body {
 }
 
 #eyes{border-bottom:0;}
-#noses{border-bottom:0;border-top:0;height: 80px;}
-#mouths{border-top:0;height: 75px;}
+#noses{border-bottom:0;border-top:0;margin-top:-56px;}
+#mouths{border-top:0;margin-top:-54px;}
 
 /* */
 
 #face {width:100%;/* max-width:640px */}
-
-.eyes{ background:url("../img/eyes_fbf658.png") top left no-repeat; width:175px; height:100px;  }
-.eyes.slot1 {background-position:-10px -10px; }
-.eyes.slot2 {background-position:-10px -120px; }
-.eyes.slot3 {background-position:-10px -230px; }
-.eyes.slot4 {background-position:-10px -340px; }
-.eyes.slot5 {background-position:-10px -450px; }
-.eyes.slot6 {background-position:-10px -560px; }
-.eyes.slot7 {background-position:-10px -670px; }
-.eyes.slot8 {background-position:-10px -780px; }
-.eyes.slot9 {background-position:-10px -890px; }
-.eyes.slot10{background-position:-10px -1000px; }
-.eyes.slot11{background-position:-10px -1110px; }
-.eyes.slot12{background-position:-10px -1220px; }
-.eyes.slot13{background-position:-10px -1330px; }
-.eyes.slot14{background-position:-10px -1440px; }
-.eyes.slot15{background-position:-10px -1550px; }
-.eyes.slot16{background-position:-10px -1660px; }
-.eyes.slot17{background-position:-10px -1770px; }
-.eyes.slot18{background-position:-10px -1880px; }
-.eyes.slot19{background-position:-10px -1990px; }
-.eyes.slot20{background-position:-10px -2100px; }
-.eyes.slot21{background-position:-10px -2210px; }
-.eyes.slot22{background-position:-10px -2320px; }
-.eyes.slot23{background-position:-10px -2430px; }
-.eyes.slot24{background-position:-10px -2540px; }
-.eyes.slot25{background-position:-10px -2650px; }
-.eyes.slot26{background-position:-10px -2760px; }
-.eyes.slot27{background-position:-10px -2870px; }
-.eyes.slot28{background-position:-10px -2980px; }
-.eyes.slot29{background-position:-10px -3090px; }
-.eyes.slot30{background-position:-10px -3200px; }
-.eyes.slot31{background-position:-10px -3310px; }
-.eyes.slot32{background-position:-10px -3420px; }
-.eyes.slot33{background-position:-10px -3530px; }
-.eyes.slot34{background-position:-10px -3640px; }
-.eyes.slot35{background-position:-10px -3750px; }
-.eyes.slot36{background-position:-10px -3860px; }
-.eyes.slot37{background-position:-10px -3970px; }
-.eyes.slot38{background-position:-10px -4080px; }
-.eyes.slot39{background-position:-10px -4190px; }
-.eyes.slot40{background-position:-10px -4300px; }
-.eyes.slot41{background-position:-10px -4410px; }
-.eyes.slot42{background-position:-10px -4520px; }
-.eyes.slot43{background-position:-10px -4630px; }
-.eyes.slot44{background-position:-10px -4740px; }
-.eyes.slot45{background-position:-10px -4850px; }
-.eyes.slot46{background-position:-10px -4960px; }
-.eyes.slot47{background-position:-10px -5070px; }
-.eyes.slot48{background-position:-10px -5180px; }
-.eyes.slot49{background-position:-10px -5290px; }
-.eyes.slot50{background-position:-10px -5400px; }
-.eyes.slot51{background-position:-10px -5510px; }
-.eyes.slot52{background-position:-10px -5620px; }
-.eyes.slot53{background-position:-10px -5730px; }
-.eyes.slot54{background-position:-10px -5840px; }
-.eyes.slot55{background-position:-10px -5950px; }
-
-.eyes.cfbf658{ background-image:url("../img/eyes_fbf658.png");}
-.eyes.cde1e7f{ background-image:url("../img/eyes_de1e7f.png");}
-.eyes.c42b0b8{ background-image:url("../img/eyes_42b0b8.png");}
-.eyes.c45ff90{ background-image:url("../img/eyes_45ff90.png");}
-.eyes.c93d4f0{ background-image:url("../img/eyes_93d4f0.png");}
-.eyes.c4322b7{ background-image:url("../img/eyes_4322b7.png");}
-.eyes.c5083ed{ background-image:url("../img/eyes_5083ed.png");}
-.eyes.c914cea{ background-image:url("../img/eyes_914cea.png");}
-.eyes.cf689df{ background-image:url("../img/eyes_f689df.png");}
-.eyes.cbc99f3{ background-image:url("../img/eyes_bc99f3.png");}
-.eyes.cfb5db4{ background-image:url("../img/eyes_fb5db4.png");}
-.eyes.cfcff8c{ background-image:url("../img/eyes_fcff8c.png");}
-.eyes.c62bfa0{ background-image:url("../img/eyes_62bfa0.png");}
-.eyes.cfdd14e{ background-image:url("../img/eyes_fdd14e.png");}
-.eyes.ce6f4c7{ background-image:url("../img/eyes_e6f4c7.png");}
-.eyes.cee8ad6{ background-image:url("../img/eyes_ee8ad6.png");}
-.eyes.cffffff{ background-image:url("../img/eyes_ffffff.png");}
-.eyes.cffdc8d{ background-image:url("../img/eyes_ffdc8d.png");}
-.eyes.c00036d{ background-image:url("../img/eyes_00036d.png");}
-.eyes.c071fff{ background-image:url("../img/eyes_071fff.png");}
-.eyes.ccccbd0{ background-image:url("../img/eyes_cccbd0.png");}
-.eyes.cfbcb00{ background-image:url("../img/eyes_fbcb00.png");}
-.eyes.cff0042{ background-image:url("../img/eyes_ff0042.png");}
-.eyes.c61ebd8{ background-image:url("../img/eyes_61ebd8.png");}
-.eyes.c8adbe2{ background-image:url("../img/eyes_8adbe2.png");}
-.eyes.cffc3b1{ background-image:url("../img/eyes_ffc3b1.png");}
-.eyes.cf0c2f3{ background-image:url("../img/eyes_f0c2f3.png");}
-
-.noses{ background:url("../img/noses_fbf658.png") top left no-repeat; width:175px; height:80px;   }
-.noses.slot1 {background-position:-10px -10px; }
-.noses.slot2 {background-position:-10px -100px; }
-.noses.slot3 {background-position:-10px -190px; }
-.noses.slot4 {background-position:-10px -280px; }
-.noses.slot5 {background-position:-10px -370px; }
-.noses.slot6 {background-position:-10px -460px; }
-.noses.slot7 {background-position:-10px -550px; }
-.noses.slot8 {background-position:-10px -640px; }
-.noses.slot9 {background-position:-10px -730px; }
-.noses.slot10{background-position:-10px -820px; }
-.noses.slot11{background-position:-10px -910px; }
-.noses.slot12{background-position:-10px -1000px; }
-.noses.slot13{background-position:-10px -1090px; }
-.noses.slot14{background-position:-10px -1180px; }
-.noses.slot15{background-position:-10px -1270px; }
-.noses.slot16{background-position:-10px -1360px; }
-.noses.slot17{background-position:-10px -1450px; }
-.noses.slot18{background-position:-10px -1540px; }
-.noses.slot19{background-position:-10px -1630px; }
-.noses.slot20{background-position:-10px -1720px; }
-.noses.slot21{background-position:-10px -1810px; }
-.noses.slot22{background-position:-10px -1900px; }
-.noses.slot23{background-position:-10px -1990px; }
-.noses.slot24{background-position:-10px -2080px; }
-.noses.slot25{background-position:-10px -2170px; }
-.noses.slot26{background-position:-10px -2260px; }
-.noses.slot27{background-position:-10px -2350px; }
-.noses.slot28{background-position:-10px -2440px; }
-.noses.slot29{background-position:-10px -2530px; }
-.noses.slot30{background-position:-10px -2620px; }
-.noses.slot31{background-position:-10px -2710px; }
-.noses.slot32{background-position:-10px -2800px; }
-.noses.slot33{background-position:-10px -2890px; }
-.noses.slot34{background-position:-10px -2980px; }
-.noses.slot35{background-position:-10px -3070px; }
-.noses.slot36{background-position:-10px -3160px; }
-.noses.slot37{background-position:-10px -3250px; }
-.noses.slot38{background-position:-10px -3340px; }
-.noses.slot39{background-position:-10px -3430px; }
-.noses.slot40{background-position:-10px -3520px; }
-.noses.slot41{background-position:-10px -3610px; }
-.noses.slot42{background-position:-10px -3700px; }
-.noses.slot43{background-position:-10px -3790px; }
-.noses.slot44{background-position:-10px -3880px; }
-.noses.slot45{background-position:-10px -3970px; }
-
-.noses.cfbf658{ background-image:url("../img/noses_fbf658.png");}
-.noses.cde1e7f{ background-image:url("../img/noses_de1e7f.png");}
-.noses.c42b0b8{ background-image:url("../img/noses_42b0b8.png");}
-.noses.c45ff90{ background-image:url("../img/noses_45ff90.png");}
-.noses.c93d4f0{ background-image:url("../img/noses_93d4f0.png");}
-.noses.c4322b7{ background-image:url("../img/noses_4322b7.png");}
-.noses.c5083ed{ background-image:url("../img/noses_5083ed.png");}
-.noses.c914cea{ background-image:url("../img/noses_914cea.png");}
-.noses.cf689df{ background-image:url("../img/noses_f689df.png");}
-.noses.cbc99f3{ background-image:url("../img/noses_bc99f3.png");}
-.noses.cfb5db4{ background-image:url("../img/noses_fb5db4.png");}
-.noses.cfcff8c{ background-image:url("../img/noses_fcff8c.png");}
-.noses.c62bfa0{ background-image:url("../img/noses_62bfa0.png");}
-.noses.cfdd14e{ background-image:url("../img/noses_fdd14e.png");}
-.noses.ce6f4c7{ background-image:url("../img/noses_e6f4c7.png");}
-.noses.cee8ad6{ background-image:url("../img/noses_ee8ad6.png");}
-.noses.cffffff{ background-image:url("../img/noses_ffffff.png");}
-.noses.cffdc8d{ background-image:url("../img/noses_ffdc8d.png");}
-.noses.c00036d{ background-image:url("../img/noses_00036d.png");}
-.noses.c071fff{ background-image:url("../img/noses_071fff.png");}
-.noses.ccccbd0{ background-image:url("../img/noses_cccbd0.png");}
-.noses.cfbcb00{ background-image:url("../img/noses_fbcb00.png");}
-.noses.cff0042{ background-image:url("../img/noses_ff0042.png");}
-.noses.c61ebd8{ background-image:url("../img/noses_61ebd8.png");}
-.noses.c8adbe2{ background-image:url("../img/noses_8adbe2.png");}
-.noses.cffc3b1{ background-image:url("../img/noses_ffc3b1.png");}
-.noses.cf0c2f3{ background-image:url("../img/noses_f0c2f3.png");}
-
-.mouths{ background:url("../img/mouths_fbf658.png") top left no-repeat;  width:175px; height:75px; }
-.mouths.slot1 {background-position:-10px -10px; }
-.mouths.slot2 {background-position:-10px -95px; }
-.mouths.slot3 {background-position:-10px -180px; }
-.mouths.slot4 {background-position:-10px -265px; }
-.mouths.slot5 {background-position:-10px -350px; }
-.mouths.slot6 {background-position:-10px -435px; }
-.mouths.slot7 {background-position:-10px -520px; }
-.mouths.slot8 {background-position:-10px -605px; }
-.mouths.slot9 {background-position:-10px -690px; }
-.mouths.slot10{background-position:-10px -775px; }
-.mouths.slot11{background-position:-10px -860px; }
-.mouths.slot12{background-position:-10px -945px; }
-.mouths.slot13{background-position:-10px -1030px; }
-.mouths.slot14{background-position:-10px -1115px; }
-.mouths.slot15{background-position:-10px -1200px; }
-.mouths.slot16{background-position:-10px -1285px; }
-.mouths.slot17{background-position:-10px -1370px; }
-.mouths.slot18{background-position:-10px -1455px; }
-.mouths.slot19{background-position:-10px -1540px; }
-.mouths.slot20{background-position:-10px -1625px; }
-.mouths.slot21{background-position:-10px -1710px; }
-.mouths.slot22{background-position:-10px -1795px; }
-.mouths.slot23{background-position:-10px -1880px; }
-.mouths.slot24{background-position:-10px -1965px; }
-.mouths.slot25{background-position:-10px -2050px; }
-.mouths.slot26{background-position:-10px -2135px; }
-.mouths.slot27{background-position:-10px -2220px; }
-.mouths.slot28{background-position:-10px -2305px; }
-.mouths.slot29{background-position:-10px -2390px; }
-.mouths.slot30{background-position:-10px -2475px; }
-.mouths.slot31{background-position:-10px -2560px; }
-.mouths.slot32{background-position:-10px -2645px; }
-.mouths.slot33{background-position:-10px -2730px; }
-.mouths.slot34{background-position:-10px -2815px; }
-.mouths.slot35{background-position:-10px -2900px; }
-.mouths.slot36{background-position:-10px -2985px; }
-.mouths.slot37{background-position:-10px -3070px; }
-.mouths.slot38{background-position:-10px -3155px; }
-.mouths.slot39{background-position:-10px -3240px; }
-.mouths.slot40{background-position:-10px -3325px; }
-.mouths.slot41{background-position:-10px -3410px; }
-.mouths.slot42{background-position:-10px -3495px; }
-.mouths.slot43{background-position:-10px -3580px; }
-.mouths.slot44{background-position:-10px -3665px; }
-.mouths.slot45{background-position:-10px -3750px; }
-.mouths.slot46{background-position:-10px -3835px; }
-.mouths.slot47{background-position:-10px -3920px; }
-.mouths.slot48{background-position:-10px -4005px; }
-.mouths.slot49{background-position:-10px -4090px; }
-.mouths.slot50{background-position:-10px -4175px; }
-.mouths.slot51{background-position:-10px -4260px; }
-.mouths.slot52{background-position:-10px -4345px; }
-.mouths.slot53{background-position:-10px -4430px; }
-.mouths.slot54{background-position:-10px -4515px; }
-.mouths.slot55{background-position:-10px -4600px; }
-
-.mouths.cfbf658{ background-image:url("../img/mouths_fbf658.png");}
-.mouths.cde1e7f{ background-image:url("../img/mouths_de1e7f.png");}
-.mouths.c42b0b8{ background-image:url("../img/mouths_42b0b8.png");}
-.mouths.c45ff90{ background-image:url("../img/mouths_45ff90.png");}
-.mouths.c93d4f0{ background-image:url("../img/mouths_93d4f0.png");}
-.mouths.c4322b7{ background-image:url("../img/mouths_4322b7.png");}
-.mouths.c5083ed{ background-image:url("../img/mouths_5083ed.png");}
-.mouths.c914cea{ background-image:url("../img/mouths_914cea.png");}
-.mouths.cf689df{ background-image:url("../img/mouths_f689df.png");}
-.mouths.cbc99f3{ background-image:url("../img/mouths_bc99f3.png");}
-.mouths.cfb5db4{ background-image:url("../img/mouths_fb5db4.png");}
-.mouths.cfcff8c{ background-image:url("../img/mouths_fcff8c.png");}
-.mouths.c62bfa0{ background-image:url("../img/mouths_62bfa0.png");}
-.mouths.cfdd14e{ background-image:url("../img/mouths_fdd14e.png");}
-.mouths.ce6f4c7{ background-image:url("../img/mouths_e6f4c7.png");}
-.mouths.cee8ad6{ background-image:url("../img/mouths_ee8ad6.png");}
-.mouths.cffffff{ background-image:url("../img/mouths_ffffff.png");}
-.mouths.cffdc8d{ background-image:url("../img/mouths_ffdc8d.png");}
-.mouths.c00036d{ background-image:url("../img/mouths_00036d.png");}
-.mouths.c071fff{ background-image:url("../img/mouths_071fff.png");}
-.mouths.ccccbd0{ background-image:url("../img/mouths_cccbd0.png");}
-.mouths.cfbcb00{ background-image:url("../img/mouths_fbcb00.png");}
-.mouths.cff0042{ background-image:url("../img/mouths_ff0042.png");}
-.mouths.c61ebd8{ background-image:url("../img/mouths_61ebd8.png");}
-.mouths.c8adbe2{ background-image:url("../img/mouths_8adbe2.png");}
-.mouths.cffc3b1{ background-image:url("../img/mouths_ffc3b1.png");}
-.mouths.cf0c2f3{ background-image:url("../img/mouths_f0c2f3.png");}
 
 #screenshot {position: fixed;bottom:0;width:100%;height:10%;cursor:pointer;background-color:rgba(255,255,255,0);}
 #camera {position: fixed;top:0;width:100%;height:10%;cursor:pointer;background-color:rgba(255,255,255,0.2);}
@@ -404,3 +159,176 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
 }
+
+.mouths.slot58, .mouths.slot57, .mouths.slot56, .mouths.slot55, .mouths.slot54, .mouths.slot53, .mouths.slot52, .mouths.slot51, .mouths.slot50, .mouths.slot49, .mouths.slot48, .mouths.slot47, .mouths.slot46, .mouths.slot45, .mouths.slot44, .mouths.slot43, .mouths.slot42, .mouths.slot41, .mouths.slot40, .mouths.slot39, .mouths.slot38, .mouths.slot37, .mouths.slot36, .mouths.slot35, .mouths.slot34, .mouths.slot33, .mouths.slot32, .mouths.slot31, .mouths.slot30, .mouths.slot29, .mouths.slot28, .mouths.slot27, .mouths.slot26, .mouths.slot25, .mouths.slot24, .mouths.slot23, .mouths.slot22, .mouths.slot21, .mouths.slot20, .mouths.slot19, .mouths.slot18, .mouths.slot17, .mouths.slot16, .mouths.slot15, .mouths.slot14, .mouths.slot13, .mouths.slot12, .mouths.slot11, .mouths.slot10, .mouths.slot9, .mouths.slot8, .mouths.slot7, .mouths.slot6, .mouths.slot5, .mouths.slot4, .mouths.slot3, .mouths.slot2, .mouths.slot1 { width: 172px; height: 122px; background-color: #FFF; mask-image: url(../img/mouths.png); -webkit-mask-image: url(../img/mouths.png); z-index:1;}
+
+
+.mouths.slot58 {mask-position: -344px -1345px;  -webkit-mask-position: -344px -1345px; }
+.mouths.slot57 {mask-position: -172px -1345px;  -webkit-mask-position: -172px -1345px; } 
+.mouths.slot56 {mask-position: 0px -1345px;  -webkit-mask-position: 0px -1345px; }
+.mouths.slot55 {mask-position: -688px -1220px;  -webkit-mask-position: -688px -1220px; }
+.mouths.slot54 {mask-position: -516px -1220px;  -webkit-mask-position: -516px -1220px; }
+.mouths.slot53 {mask-position: -344px -1220px;  -webkit-mask-position: -344px -1220px; }
+.mouths.slot52 {mask-position: -172px -1220px;  -webkit-mask-position: -172px -1220px; }
+.mouths.slot51 {mask-position: 0px -1220px;  -webkit-mask-position: 0px -1220px; }
+.mouths.slot50 {mask-position: -688px -1098px;  -webkit-mask-position: -688px -1098px; }
+.mouths.slot49 {mask-position: -516px -1098px;  -webkit-mask-position: -516px -1098px; }
+.mouths.slot48 {mask-position: -344px -1098px;  -webkit-mask-position: -344px -1098px; }
+.mouths.slot47 {mask-position: -172px -1098px;  -webkit-mask-position: -172px -1098px; }
+.mouths.slot46 {mask-position: 0px -1098px;  -webkit-mask-position: 0px -1098px; }
+.mouths.slot45 {mask-position: -688px -976px;  -webkit-mask-position: -688px -976px; }
+.mouths.slot44 {mask-position: -516px -976px;  -webkit-mask-position: -516px -976px; }
+.mouths.slot43 {mask-position: -344px -976px;  -webkit-mask-position: -344px -976px; }
+.mouths.slot42 {mask-position: -172px -976px;  -webkit-mask-position: -172px -976px; }
+.mouths.slot41 {mask-position: 0px -976px;  -webkit-mask-position: 0px -976px; }
+.mouths.slot40 {mask-position: -688px -854px;  -webkit-mask-position: -688px -854px; }
+.mouths.slot39 {mask-position: -516px -854px;  -webkit-mask-position: -516px -854px; }
+.mouths.slot38 {mask-position: -344px -854px;  -webkit-mask-position: -344px -854px; }
+.mouths.slot37 {mask-position: -172px -854px;  -webkit-mask-position: -172px -854px; }
+.mouths.slot36 {mask-position: 0px -854px;  -webkit-mask-position: 0px -854px; }
+.mouths.slot35 {mask-position: -688px -732px;  -webkit-mask-position: -688px -732px; }
+.mouths.slot34 {mask-position: -516px -732px;  -webkit-mask-position: -516px -732px; }
+.mouths.slot33 {mask-position: -344px -732px;  -webkit-mask-position: -344px -732px; }
+.mouths.slot32 {mask-position: -172px -732px;  -webkit-mask-position: -172px -732px; }
+.mouths.slot31 {mask-position: 0px -732px;  -webkit-mask-position: 0px -732px; }
+.mouths.slot30 {mask-position: -688px -610px;  -webkit-mask-position: -688px -610px; }
+.mouths.slot29 {mask-position: -516px -610px;  -webkit-mask-position: -516px -610px; }
+.mouths.slot28 {mask-position: -344px -610px;  -webkit-mask-position: -344px -610px; }
+.mouths.slot27 {mask-position: -172px -610px;  -webkit-mask-position: -172px -610px; }
+.mouths.slot26 {mask-position: 0px -610px;  -webkit-mask-position: 0px -610px; }
+.mouths.slot25 {mask-position: -688px -488px;  -webkit-mask-position: -688px -488px; }
+.mouths.slot24 {mask-position: -516px -488px;  -webkit-mask-position: -516px -488px; }
+.mouths.slot23 {mask-position: -344px -488px;  -webkit-mask-position: -344px -488px; }
+.mouths.slot22 {mask-position: -172px -488px;  -webkit-mask-position: -172px -488px; }
+.mouths.slot21 {mask-position: 0px -488px;  -webkit-mask-position: 0px -488px; }
+.mouths.slot20 {mask-position: -688px -366px;  -webkit-mask-position: -688px -366px; }
+.mouths.slot19 {mask-position: -516px -366px;  -webkit-mask-position: -516px -366px; }
+.mouths.slot18 {mask-position: -344px -366px;  -webkit-mask-position: -344px -366px; }
+.mouths.slot17 {mask-position: -172px -366px;  -webkit-mask-position: -172px -366px; }
+.mouths.slot16 {mask-position: 0px -366px;  -webkit-mask-position: 0px -366px; }
+.mouths.slot15 {mask-position: -688px -244px;  -webkit-mask-position: -688px -244px; }
+.mouths.slot14 {mask-position: -516px -244px;  -webkit-mask-position: -516px -244px; }
+.mouths.slot13 {mask-position: -344px -244px;  -webkit-mask-position: -344px -244px; }
+.mouths.slot12 {mask-position: -172px -244px;  -webkit-mask-position: -172px -244px; }
+.mouths.slot11 {mask-position: 0px -244px;  -webkit-mask-position: 0px -244px; }
+.mouths.slot10 {mask-position: -688px -122px;  -webkit-mask-position: -688px -122px; }
+.mouths.slot9 { mask-position: -516px -122px; -webkit-mask-position: -516px -122px; }
+.mouths.slot8 { mask-position: -344px -122px; -webkit-mask-position: -344px -122px; }
+.mouths.slot7 { mask-position: -172px -122px; -webkit-mask-position: -172px -122px; }
+.mouths.slot6 { mask-position: 0px -122px; -webkit-mask-position: 0px -122px; }
+.mouths.slot5 { mask-position: -688px 0px; -webkit-mask-position: -688px 0px; }
+.mouths.slot4 { mask-position: -516px 0px; -webkit-mask-position: -516px 0px; }
+.mouths.slot3 { mask-position: -344px 0px; -webkit-mask-position: -344px 0px; }
+.mouths.slot2 { mask-position: -172px 0px; -webkit-mask-position: -172px 0px; }
+.mouths.slot1 { mask-position: 0px 0px; -webkit-mask-position: 0px 0px; }
+
+.eyes.slot60, .eyes.slot59, .eyes.slot58, .eyes.slot57, .eyes.slot56, .eyes.slot55, .eyes.slot54, .eyes.slot53, .eyes.slot52, .eyes.slot51, .eyes.slot50, .eyes.slot49, .eyes.slot48, .eyes.slot47, .eyes.slot46, .eyes.slot45, .eyes.slot44, .eyes.slot43, .eyes.slot42, .eyes.slot41, .eyes.slot40, .eyes.slot39, .eyes.slot38, .eyes.slot37, .eyes.slot36, .eyes.slot35, .eyes.slot34, .eyes.slot33, .eyes.slot32, .eyes.slot31, .eyes.slot30, .eyes.slot29, .eyes.slot28, .eyes.slot27, .eyes.slot26, .eyes.slot25, .eyes.slot24, .eyes.slot23, .eyes.slot22, .eyes.slot21, .eyes.slot20, .eyes.slot19, .eyes.slot18, .eyes.slot17, .eyes.slot16, .eyes.slot15, .eyes.slot14, .eyes.slot13, .eyes.slot12, .eyes.slot11, .eyes.slot10, .eyes.slot9, .eyes.slot8, .eyes.slot7, .eyes.slot6, .eyes.slot5, .eyes.slot4, .eyes.slot3, .eyes.slot2, .eyes.slot1 { width: 172px; height: 122px; background-color: #FFF; mask-image: url(../img/eyes.png); -webkit-mask-image: url(../img/eyes.png); z-index:1;}
+
+.eyes.slot60 {mask-position: -688px -1342px;  -webkit-mask-position: -688px -1342px; }
+.eyes.slot59 {mask-position: -516px -1342px;  -webkit-mask-position: -516px -1342px; }
+.eyes.slot58 {mask-position: -344px -1342px;  -webkit-mask-position: -344px -1342px; }
+.eyes.slot57 {mask-position: -172px -1342px;  -webkit-mask-position: -172px -1342px; }
+.eyes.slot56 {mask-position: 0px -1342px;  -webkit-mask-position: 0px -1342px; }
+.eyes.slot55 {mask-position: -688px -1220px;  -webkit-mask-position: -688px -1220px; }
+.eyes.slot54 {mask-position: -516px -1220px;  -webkit-mask-position: -516px -1220px; }
+.eyes.slot53 {mask-position: -344px -1220px;  -webkit-mask-position: -344px -1220px; }
+.eyes.slot52 {mask-position: -172px -1220px;  -webkit-mask-position: -172px -1220px; }
+.eyes.slot51 {mask-position: 0px -1220px;  -webkit-mask-position: 0px -1220px; }
+.eyes.slot50 {mask-position: -688px -1098px;  -webkit-mask-position: -688px -1098px; }
+.eyes.slot49 {mask-position: -516px -1098px;  -webkit-mask-position: -516px -1098px; }
+.eyes.slot48 {mask-position: -344px -1098px;  -webkit-mask-position: -344px -1098px; }
+.eyes.slot47 {mask-position: -172px -1098px;  -webkit-mask-position: -172px -1098px; }
+.eyes.slot46 {mask-position: 0px -1098px;  -webkit-mask-position: 0px -1098px; }
+.eyes.slot45 {mask-position: -688px -976px;  -webkit-mask-position: -688px -976px; }
+.eyes.slot44 {mask-position: -516px -976px;  -webkit-mask-position: -516px -976px; }
+.eyes.slot43 {mask-position: -344px -976px;  -webkit-mask-position: -344px -976px; }
+.eyes.slot42 {mask-position: -172px -976px;  -webkit-mask-position: -172px -976px; }
+.eyes.slot41 {mask-position: 0px -976px;  -webkit-mask-position: 0px -976px; }
+.eyes.slot40 {mask-position: -688px -854px;  -webkit-mask-position: -688px -854px; }
+.eyes.slot39 {mask-position: -516px -854px;  -webkit-mask-position: -516px -854px; }
+.eyes.slot38 {mask-position: -344px -854px;  -webkit-mask-position: -344px -854px; }
+.eyes.slot37 {mask-position: -172px -854px;  -webkit-mask-position: -172px -854px; }
+.eyes.slot36 {mask-position: 0px -854px;  -webkit-mask-position: 0px -854px; }
+.eyes.slot35 {mask-position: -688px -732px;  -webkit-mask-position: -688px -732px; }
+.eyes.slot34 {mask-position: -516px -732px;  -webkit-mask-position: -516px -732px; }
+.eyes.slot33 {mask-position: -344px -732px;  -webkit-mask-position: -344px -732px; }
+.eyes.slot32 {mask-position: -172px -732px;  -webkit-mask-position: -172px -732px; }
+.eyes.slot31 {mask-position: 0px -732px;  -webkit-mask-position: 0px -732px; }
+.eyes.slot30 {mask-position: -688px -610px;  -webkit-mask-position: -688px -610px; }
+.eyes.slot29 {mask-position: -516px -610px;  -webkit-mask-position: -516px -610px; }
+.eyes.slot28 {mask-position: -344px -610px;  -webkit-mask-position: -344px -610px; }
+.eyes.slot27 {mask-position: -172px -610px;  -webkit-mask-position: -172px -610px; }
+.eyes.slot26 {mask-position: 0px -610px;  -webkit-mask-position: 0px -610px; }
+.eyes.slot25 {mask-position: -688px -488px;  -webkit-mask-position: -688px -488px; }
+.eyes.slot24 {mask-position: -516px -488px;  -webkit-mask-position: -516px -488px; }
+.eyes.slot23 {mask-position: -344px -488px;  -webkit-mask-position: -344px -488px; }
+.eyes.slot22 {mask-position: -172px -488px;  -webkit-mask-position: -172px -488px; }
+.eyes.slot21 {mask-position: 0px -488px;  -webkit-mask-position: 0px -488px; }
+.eyes.slot20 {mask-position: -688px -366px;  -webkit-mask-position: -688px -366px; }
+.eyes.slot19 {mask-position: -516px -366px;  -webkit-mask-position: -516px -366px; }
+.eyes.slot18 {mask-position: -344px -366px;  -webkit-mask-position: -344px -366px; }
+.eyes.slot17 {mask-position: -172px -366px;  -webkit-mask-position: -172px -366px; }
+.eyes.slot16 {mask-position: 0px -366px;  -webkit-mask-position: 0px -366px; }
+.eyes.slot15 {mask-position: -688px -244px;  -webkit-mask-position: -688px -244px; }
+.eyes.slot14 {mask-position: -516px -244px;  -webkit-mask-position: -516px -244px; }
+.eyes.slot13 {mask-position: -344px -244px;  -webkit-mask-position: -344px -244px; }
+.eyes.slot12 {mask-position: -172px -244px;  -webkit-mask-position: -172px -244px; }
+.eyes.slot11 {mask-position: 0px -244px;  -webkit-mask-position: 0px -244px; }
+.eyes.slot10 {mask-position: -688px -122px;  -webkit-mask-position: -688px -122px; }
+.eyes.slot9 { mask-position: -516px -122px; -webkit-mask-position: -516px -122px; }
+.eyes.slot8 { mask-position: -344px -122px; -webkit-mask-position: -344px -122px; }
+.eyes.slot7 { mask-position: -172px -122px; -webkit-mask-position: -172px -122px; }
+.eyes.slot6 { mask-position: 0px -122px; -webkit-mask-position: 0px -122px; }
+.eyes.slot5 { mask-position: -688px 0px; -webkit-mask-position: -688px 0px; }
+.eyes.slot4 { mask-position: -516px 0px; -webkit-mask-position: -516px 0px; }
+.eyes.slot3 { mask-position: -344px 0px; -webkit-mask-position: -344px 0px; }
+.eyes.slot2 { mask-position: -172px 0px; -webkit-mask-position: -172px 0px; }
+.eyes.slot1 { mask-position: 0px 0px; -webkit-mask-position: 0px 0px; }
+
+.noses.slot44, .noses.slot43, .noses.slot42, .noses.slot41, .noses.slot40, .noses.slot39, .noses.slot38, .noses.slot37, .noses.slot36, .noses.slot35, .noses.slot34, .noses.slot33, .noses.slot32, .noses.slot31, .noses.slot30, .noses.slot29, .noses.slot28, .noses.slot27, .noses.slot26, .noses.slot25, .noses.slot24, .noses.slot23, .noses.slot22, .noses.slot21, .noses.slot20, .noses.slot19, .noses.slot18, .noses.slot17, .noses.slot16, .noses.slot15, .noses.slot14, .noses.slot13, .noses.slot12, .noses.slot11, .noses.slot10, .noses.slot9, .noses.slot8, .noses.slot7, .noses.slot6, .noses.slot5, .noses.slot4, .noses.slot3, .noses.slot2, .noses.slot1 { width: 172px; height: 122px; background-color: #FFF; mask-image: url(../img/noses.png); -webkit-mask-image: url(../img/noses.png);z-index:1; }
+
+.noses.slot44 {mask-position: -516px -976px; -webkit-mask-position: -516px -976px; }
+.noses.slot43 {mask-position: -344px -976px; -webkit-mask-position: -344px -976px; }
+.noses.slot42 {mask-position: -172px -976px; -webkit-mask-position: -172px -976px; }
+.noses.slot41 {mask-position: 0px -976px;	  -webkit-mask-position: 0px -976px;	 }
+.noses.slot40 {mask-position: -688px -854px; -webkit-mask-position: -688px -854px; }
+.noses.slot39 {mask-position: -516px -854px; -webkit-mask-position: -516px -854px; }
+.noses.slot38 {mask-position: -344px -854px; -webkit-mask-position: -344px -854px; }
+.noses.slot37 {mask-position: -172px -854px; -webkit-mask-position: -172px -854px; }
+.noses.slot36 {mask-position: 0px -854px;	  -webkit-mask-position: 0px -854px;	 }
+.noses.slot35 {mask-position: -688px -732px; -webkit-mask-position: -688px -732px; }
+.noses.slot34 {mask-position: -516px -732px; -webkit-mask-position: -516px -732px; }
+.noses.slot33 {mask-position: -344px -732px; -webkit-mask-position: -344px -732px; }
+.noses.slot32 {mask-position: -172px -732px; -webkit-mask-position: -172px -732px; }
+.noses.slot31 {mask-position: 0px -732px;	  -webkit-mask-position: 0px -732px;	 }
+.noses.slot30 {mask-position: -688px -610px; -webkit-mask-position: -688px -610px; }
+.noses.slot29 {mask-position: -516px -610px; -webkit-mask-position: -516px -610px; }
+.noses.slot28 {mask-position: -344px -610px; -webkit-mask-position: -344px -610px; }
+.noses.slot27 {mask-position: -172px -610px; -webkit-mask-position: -172px -610px; }
+.noses.slot26 {mask-position: 0px -610px;	  -webkit-mask-position: 0px -610px;	 }
+.noses.slot25 {mask-position: -688px -488px; -webkit-mask-position: -688px -488px; }
+.noses.slot24 {mask-position: -516px -488px; -webkit-mask-position: -516px -488px; }
+.noses.slot23 {mask-position: -344px -488px; -webkit-mask-position: -344px -488px; }
+.noses.slot22 {mask-position: -172px -488px; -webkit-mask-position: -172px -488px; }
+.noses.slot21 {mask-position: 0px -488px;	  -webkit-mask-position: 0px -488px;	 }
+.noses.slot20 {mask-position: -688px -366px; -webkit-mask-position: -688px -366px; }
+.noses.slot19 {mask-position: -516px -366px; -webkit-mask-position: -516px -366px; }
+.noses.slot18 {mask-position: -344px -366px; -webkit-mask-position: -344px -366px; }
+.noses.slot17 {mask-position: -172px -366px; -webkit-mask-position: -172px -366px; }
+.noses.slot16 {mask-position: 0px -366px;	  -webkit-mask-position: 0px -366px;	 }
+.noses.slot15 {mask-position: -688px -244px; -webkit-mask-position: -688px -244px; }
+.noses.slot14 {mask-position: -516px -244px; -webkit-mask-position: -516px -244px; }
+.noses.slot13 {mask-position: -344px -244px; -webkit-mask-position: -344px -244px; }
+.noses.slot12 {mask-position: -172px -244px; -webkit-mask-position: -172px -244px; }
+.noses.slot11 {mask-position: 0px -244px;	  -webkit-mask-position: 0px -244px;	 }
+.noses.slot10 {mask-position: -688px -122px; -webkit-mask-position: -688px -122px; }
+.noses.slot9 { mask-position: -516px -122px;-webkit-mask-position: -516px -122px;	 }
+.noses.slot8 { mask-position: -344px -122px;-webkit-mask-position: -344px -122px;	 }
+.noses.slot7 { mask-position: -172px -122px;-webkit-mask-position: -172px -122px;	 }
+.noses.slot6 { mask-position: 0px -122px;	 -webkit-mask-position: 0px -122px;	 }
+.noses.slot5 { mask-position: -688px 0px;	 -webkit-mask-position: -688px 0px;	 }
+.noses.slot4 { mask-position: -516px 0px;	 -webkit-mask-position: -516px 0px;	 }
+.noses.slot3 { mask-position: -344px 0px;	 -webkit-mask-position: -344px 0px;	 }
+.noses.slot2 { mask-position: -172px 0px;	 -webkit-mask-position: -172px 0px;	 }
+.noses.slot1 { mask-position: 0px 0px;		 -webkit-mask-position: 0px 0px;		 }
+
