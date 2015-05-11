@@ -130,9 +130,9 @@
 					$("body").css({backgroundColor: color[0]});
 					$("#eyes,#noses,#mouths").css({backgroundColor: color[1]});					
 					
-					$("#eyes").removeClass().addClass('animated bounceIn slot'+eyes+' eyes').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
-					$("#noses").removeClass().addClass('animated bounceIn noses slot'+nose).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
-					$("#mouths").removeClass().addClass('animated bounceIn mouths slot'+mouth).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
+					$("#eyes").removeClass().addClass('slot'+eyes+' eyes').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
+					$("#noses").removeClass().addClass('noses slot'+nose).addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
+					$("#mouths").removeClass().addClass('mouths slot'+mouth).addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){  $(this).removeClass('bounceIn'); });
 				};
 				
 				$("#face").click(function(){
