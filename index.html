@@ -19,7 +19,7 @@
 			</div>
 		</div>			
 		<div id="screenshot"></div>
-		<audio src="src/shutter.mp3"></audio>
+		<audio id="shutter-sound" src="src/shutter.mp3"></audio>
 		<div id="shutter"></div>
 
 		<script>
@@ -124,7 +124,8 @@
 						}
 					});
 					$('#shutter').addClass('on');
-					$('audio')[0].play();
+					$('#shutter-sound').trigger('play').trigger('stop');
+					
 					setTimeout(function() {
 						$('#shutter').removeClass('on');
 					}, 50*2+45);/* Shutter speed (double & add 45) */
