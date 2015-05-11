@@ -120,7 +120,6 @@
 						if(error){
 							console.error(error);
 						}else{
-							var filePath='/sdcard/SAM-o';
 							console.log('ok',res.filePath);
 						}
 					});
@@ -128,7 +127,7 @@
 					$('audio')[0].play();
 					setTimeout(function() {
 						$('#shutter').removeClass('on');
-					}, 10*2+45);/* Shutter speed (double & add 45) */
+					}, 30*2+45);/* Shutter speed (double & add 45) */
 				});
 				
 				function opsi() {
