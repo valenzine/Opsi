@@ -19,6 +19,8 @@
 			</div>
 		</div>			
 		<div id="screenshot"></div>
+		<audio src="src/shutter.mp3"></audio>
+		<div id="shutter"></div>
 
 		<script>
 			$(document).ready(function(){
@@ -118,10 +120,15 @@
 						if(error){
 							console.error(error);
 						}else{
+							var filePath='/sdcard/SAM-o';
 							console.log('ok',res.filePath);
 						}
 					});
-					alert('Screenshot taken!');
+					$('#shutter').addClass('on');
+					$('audio')[0].play();
+					setTimeout(function() {
+						$('#shutter').removeClass('on');
+					}, 10*2+45);/* Shutter speed (double & add 45) */
 				});
 				
 				function opsi() {
