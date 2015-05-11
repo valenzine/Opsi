@@ -66,16 +66,14 @@ body {
 
 #shutter {
   opacity: 0;
-  transition: all 10ms ease-in;/* Shutter speed */
+  transition: opacity 10ms ease-in;/* Shutter speed */
   position: fixed;
-  height: 0%;
-  width: 0%;
+  height: 100%;
+  width: 100%;
   pointer-events: none;
   background-color: white;/* Shutter Color */
-  left:50%;
-  top:50%;
-  transform: translate(-10%, -50%);
-  -webkit-transform: translate(-50%, -50%)
+  top:0;
+  left:0;
 }
 #shutter.on {
   opacity: 1;/* Shutter Transparency */
