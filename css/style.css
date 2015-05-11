@@ -53,9 +53,9 @@ body {
 	background-repeat: no-repeat;
 }
 
-#eyes{border-bottom:0;}
-#noses{border-bottom:0;border-top:0;margin-top:-56px;}
-#mouths{border-top:0;margin-top:-54px;}
+#eyes	{background-color: #FFF; mask-image: url(../img/eyes.png); -webkit-mask-image: url(../img/eyes.png); z-index:1;border-bottom:0;}
+#noses	{background-color: #FFF; mask-image: url(../img/noses.png); -webkit-mask-image: url(../img/noses.png); z-index:1;border-bottom:0;border-top:0;margin-top:-56px;}
+#mouths	{background-color: #FFF; mask-image: url(../img/mouths.png); -webkit-mask-image: url(../img/mouths.png); z-index:1;border-top:0;margin-top:-54px;}
 
 /* */
 
@@ -160,7 +160,7 @@ Copyright (c) 2015 Daniel Eden
   animation-name: bounceIn;
 }
 
-.mouths.slot58, .mouths.slot57, .mouths.slot56, .mouths.slot55, .mouths.slot54, .mouths.slot53, .mouths.slot52, .mouths.slot51, .mouths.slot50, .mouths.slot49, .mouths.slot48, .mouths.slot47, .mouths.slot46, .mouths.slot45, .mouths.slot44, .mouths.slot43, .mouths.slot42, .mouths.slot41, .mouths.slot40, .mouths.slot39, .mouths.slot38, .mouths.slot37, .mouths.slot36, .mouths.slot35, .mouths.slot34, .mouths.slot33, .mouths.slot32, .mouths.slot31, .mouths.slot30, .mouths.slot29, .mouths.slot28, .mouths.slot27, .mouths.slot26, .mouths.slot25, .mouths.slot24, .mouths.slot23, .mouths.slot22, .mouths.slot21, .mouths.slot20, .mouths.slot19, .mouths.slot18, .mouths.slot17, .mouths.slot16, .mouths.slot15, .mouths.slot14, .mouths.slot13, .mouths.slot12, .mouths.slot11, .mouths.slot10, .mouths.slot9, .mouths.slot8, .mouths.slot7, .mouths.slot6, .mouths.slot5, .mouths.slot4, .mouths.slot3, .mouths.slot2, .mouths.slot1 { width: 172px; height: 122px; background-color: #FFF; mask-image: url(../img/mouths.png); -webkit-mask-image: url(../img/mouths.png); z-index:1;}
+.mouths.slot58, .mouths.slot57, .mouths.slot56, .mouths.slot55, .mouths.slot54, .mouths.slot53, .mouths.slot52, .mouths.slot51, .mouths.slot50, .mouths.slot49, .mouths.slot48, .mouths.slot47, .mouths.slot46, .mouths.slot45, .mouths.slot44, .mouths.slot43, .mouths.slot42, .mouths.slot41, .mouths.slot40, .mouths.slot39, .mouths.slot38, .mouths.slot37, .mouths.slot36, .mouths.slot35, .mouths.slot34, .mouths.slot33, .mouths.slot32, .mouths.slot31, .mouths.slot30, .mouths.slot29, .mouths.slot28, .mouths.slot27, .mouths.slot26, .mouths.slot25, .mouths.slot24, .mouths.slot23, .mouths.slot22, .mouths.slot21, .mouths.slot20, .mouths.slot19, .mouths.slot18, .mouths.slot17, .mouths.slot16, .mouths.slot15, .mouths.slot14, .mouths.slot13, .mouths.slot12, .mouths.slot11, .mouths.slot10, .mouths.slot9, .mouths.slot8, .mouths.slot7, .mouths.slot6, .mouths.slot5, .mouths.slot4, .mouths.slot3, .mouths.slot2, .mouths.slot1 { width: 172px; height: 122px; }
 
 
 .mouths.slot58 {mask-position: -344px -1345px;  -webkit-mask-position: -344px -1345px; }
@@ -222,7 +222,7 @@ Copyright (c) 2015 Daniel Eden
 .mouths.slot2 { mask-position: -172px 0px; -webkit-mask-position: -172px 0px; }
 .mouths.slot1 { mask-position: 0px 0px; -webkit-mask-position: 0px 0px; }
 
-.eyes.slot60, .eyes.slot59, .eyes.slot58, .eyes.slot57, .eyes.slot56, .eyes.slot55, .eyes.slot54, .eyes.slot53, .eyes.slot52, .eyes.slot51, .eyes.slot50, .eyes.slot49, .eyes.slot48, .eyes.slot47, .eyes.slot46, .eyes.slot45, .eyes.slot44, .eyes.slot43, .eyes.slot42, .eyes.slot41, .eyes.slot40, .eyes.slot39, .eyes.slot38, .eyes.slot37, .eyes.slot36, .eyes.slot35, .eyes.slot34, .eyes.slot33, .eyes.slot32, .eyes.slot31, .eyes.slot30, .eyes.slot29, .eyes.slot28, .eyes.slot27, .eyes.slot26, .eyes.slot25, .eyes.slot24, .eyes.slot23, .eyes.slot22, .eyes.slot21, .eyes.slot20, .eyes.slot19, .eyes.slot18, .eyes.slot17, .eyes.slot16, .eyes.slot15, .eyes.slot14, .eyes.slot13, .eyes.slot12, .eyes.slot11, .eyes.slot10, .eyes.slot9, .eyes.slot8, .eyes.slot7, .eyes.slot6, .eyes.slot5, .eyes.slot4, .eyes.slot3, .eyes.slot2, .eyes.slot1 { width: 172px; height: 122px; background-color: #FFF; mask-image: url(../img/eyes.png); -webkit-mask-image: url(../img/eyes.png); z-index:1;}
+.eyes.slot60, .eyes.slot59, .eyes.slot58, .eyes.slot57, .eyes.slot56, .eyes.slot55, .eyes.slot54, .eyes.slot53, .eyes.slot52, .eyes.slot51, .eyes.slot50, .eyes.slot49, .eyes.slot48, .eyes.slot47, .eyes.slot46, .eyes.slot45, .eyes.slot44, .eyes.slot43, .eyes.slot42, .eyes.slot41, .eyes.slot40, .eyes.slot39, .eyes.slot38, .eyes.slot37, .eyes.slot36, .eyes.slot35, .eyes.slot34, .eyes.slot33, .eyes.slot32, .eyes.slot31, .eyes.slot30, .eyes.slot29, .eyes.slot28, .eyes.slot27, .eyes.slot26, .eyes.slot25, .eyes.slot24, .eyes.slot23, .eyes.slot22, .eyes.slot21, .eyes.slot20, .eyes.slot19, .eyes.slot18, .eyes.slot17, .eyes.slot16, .eyes.slot15, .eyes.slot14, .eyes.slot13, .eyes.slot12, .eyes.slot11, .eyes.slot10, .eyes.slot9, .eyes.slot8, .eyes.slot7, .eyes.slot6, .eyes.slot5, .eyes.slot4, .eyes.slot3, .eyes.slot2, .eyes.slot1 { width: 172px; height: 122px;}
 
 .eyes.slot60 {mask-position: -688px -1342px;  -webkit-mask-position: -688px -1342px; }
 .eyes.slot59 {mask-position: -516px -1342px;  -webkit-mask-position: -516px -1342px; }
@@ -285,7 +285,7 @@ Copyright (c) 2015 Daniel Eden
 .eyes.slot2 { mask-position: -172px 0px; -webkit-mask-position: -172px 0px; }
 .eyes.slot1 { mask-position: 0px 0px; -webkit-mask-position: 0px 0px; }
 
-.noses.slot44, .noses.slot43, .noses.slot42, .noses.slot41, .noses.slot40, .noses.slot39, .noses.slot38, .noses.slot37, .noses.slot36, .noses.slot35, .noses.slot34, .noses.slot33, .noses.slot32, .noses.slot31, .noses.slot30, .noses.slot29, .noses.slot28, .noses.slot27, .noses.slot26, .noses.slot25, .noses.slot24, .noses.slot23, .noses.slot22, .noses.slot21, .noses.slot20, .noses.slot19, .noses.slot18, .noses.slot17, .noses.slot16, .noses.slot15, .noses.slot14, .noses.slot13, .noses.slot12, .noses.slot11, .noses.slot10, .noses.slot9, .noses.slot8, .noses.slot7, .noses.slot6, .noses.slot5, .noses.slot4, .noses.slot3, .noses.slot2, .noses.slot1 { width: 172px; height: 122px; background-color: #FFF; mask-image: url(../img/noses.png); -webkit-mask-image: url(../img/noses.png);z-index:1; }
+.noses.slot44, .noses.slot43, .noses.slot42, .noses.slot41, .noses.slot40, .noses.slot39, .noses.slot38, .noses.slot37, .noses.slot36, .noses.slot35, .noses.slot34, .noses.slot33, .noses.slot32, .noses.slot31, .noses.slot30, .noses.slot29, .noses.slot28, .noses.slot27, .noses.slot26, .noses.slot25, .noses.slot24, .noses.slot23, .noses.slot22, .noses.slot21, .noses.slot20, .noses.slot19, .noses.slot18, .noses.slot17, .noses.slot16, .noses.slot15, .noses.slot14, .noses.slot13, .noses.slot12, .noses.slot11, .noses.slot10, .noses.slot9, .noses.slot8, .noses.slot7, .noses.slot6, .noses.slot5, .noses.slot4, .noses.slot3, .noses.slot2, .noses.slot1 { width: 172px; height: 122px; }
 
 .noses.slot44 {mask-position: -516px -976px; -webkit-mask-position: -516px -976px; }
 .noses.slot43 {mask-position: -344px -976px; -webkit-mask-position: -344px -976px; }
